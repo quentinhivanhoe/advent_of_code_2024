@@ -14,6 +14,10 @@ typedef struct list_s {
     struct list_s *right;
 } list_t;
 
+typedef struct hashmap_s {
+    list_t *list;
+} hashmap_t;
+
 typedef struct location_list_s {
     list_t *left_list;
     list_t *right_list;
